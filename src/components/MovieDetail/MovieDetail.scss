@@ -1,0 +1,14 @@
+.movie-detail-con {
+    // display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.movie-detail-img, .movie-detail-info {
+    margin: 2rem;
+    text-align: center;
+   
+}
+.movie-detail-img img{
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+// input[type="text"] {
+//     padding: 1rem 1rem;
+//     margin: 0 1rem;
+//     width: 300px;
+// }
+
+.grid-left-right{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+
+    input[type="text"] {
+        padding: 1rem 1rem;
+        margin: 1rem 1rem;
+        width: 200px;
+        
+    }
+    h3{
+        padding: 0 1rem;
+        margin: 0 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
